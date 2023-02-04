@@ -68,8 +68,8 @@ Material:
     - _Intensity2: 5
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Tiling: 5
-    - _Tiling2: 5
+    - _Tiling: 4
+    - _Tiling2: 4
     - _X: 0.1
     - _X1: 0.1
     - _Y: 0.1
