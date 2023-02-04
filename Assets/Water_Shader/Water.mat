@@ -50,9 +50,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Choppiness: 0.005
+    - _Choppiness: 0.01
     - _Intensity: 0.1
-    - _Intensity2: 0.8
+    - _Intensity2: 0.3
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Tiling: 10

@@ -56,6 +56,12 @@
         },
         {
             "m_Id": "d3094e8d257a4c6089c993558788df22"
+        },
+        {
+            "m_Id": "f074f31be43b4b7fb6b87684b21d3edf"
+        },
+        {
+            "m_Id": "4a487780937841aead9cbaccdd01a005"
         }
     ],
     "m_Keywords": [],
@@ -966,8 +972,8 @@
     ],
     "m_VertexContext": {
         "m_Position": {
-            "x": 2025.0,
-            "y": -109.0000228881836
+            "x": 2453.0,
+            "y": -176.00001525878907
         },
         "m_Blocks": [
             {
@@ -983,8 +989,8 @@
     },
     "m_FragmentContext": {
         "m_Position": {
-            "x": 2025.0,
-            "y": 105.00001525878906
+            "x": 2453.0,
+            "y": 37.99999237060547
         },
         "m_Blocks": [
             {
@@ -2555,6 +2561,33 @@
 }
 
 {
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector3ShaderProperty",
+    "m_ObjectId": "4a487780937841aead9cbaccdd01a005",
+    "m_Guid": {
+        "m_GuidSerialized": "3c783645-8537-42d5-a9fe-e9e872b904d1"
+    },
+    "m_Name": "Vector3",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "Vector3",
+    "m_DefaultReferenceName": "_Vector3",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5,
+        "w": 0.0
+    }
+}
+
+{
     "m_SGVersion": 3,
     "m_Type": "UnityEditor.ShaderGraph.Internal.ColorShaderProperty",
     "m_ObjectId": "4a752384677d42418bf85af3f6089d25",
@@ -3258,6 +3291,12 @@
         },
         {
             "m_Id": "d3094e8d257a4c6089c993558788df22"
+        },
+        {
+            "m_Id": "f074f31be43b4b7fb6b87684b21d3edf"
+        },
+        {
+            "m_Id": "4a487780937841aead9cbaccdd01a005"
         }
     ]
 }
@@ -6423,6 +6462,35 @@
         "x": 0.0,
         "y": 1.0
     }
+}
+
+{
+    "m_SGVersion": 3,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.ColorShaderProperty",
+    "m_ObjectId": "f074f31be43b4b7fb6b87684b21d3edf",
+    "m_Guid": {
+        "m_GuidSerialized": "3d30e08d-b734-44ac-a8df-f17c86226237"
+    },
+    "m_Name": "Color",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "Color",
+    "m_DefaultReferenceName": "_Color",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 0.0
+    },
+    "isMainColor": false,
+    "m_ColorMode": 0
 }
 
 {

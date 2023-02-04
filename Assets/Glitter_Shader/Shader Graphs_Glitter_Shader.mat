@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-2673274171377931514
+--- !u!114 &-7401761660496788405
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Lava
-  m_Shader: {fileID: -6465566751694194690, guid: e0b713851bf0d05468408713c4622af5, type: 3}
+  m_Name: Shader Graphs_Glitter_Shader
+  m_Shader: {fileID: -6465566751694194690, guid: e74e2dbfe3f8eaf46b8e083ea419f783, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 2
@@ -33,20 +33,8 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _SampleTexture2D_aae4b2ec376b41169d932d980ded4564_Texture_1:
-        m_Texture: {fileID: 2800000, guid: f719646d707cf0e48848212808567a41, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_afca49cfb41c4bf99d6d60f6bbc19f82_Texture_1:
-        m_Texture: {fileID: 2800000, guid: b5a3094051c2f5249b5177737504a1fc, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_b7a430ff17a6410491fe1c2388d5ed4d_Texture_1:
-        m_Texture: {fileID: 2800000, guid: b5a3094051c2f5249b5177737504a1fc, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_c05f0df626f044a3b2169a030fc515d3_Texture_1:
-        m_Texture: {fileID: 2800000, guid: f719646d707cf0e48848212808567a41, type: 3}
+    - _NoiseTexture:
+        m_Texture: {fileID: 2800000, guid: 89f4427bc46ff0d4bb082411740be021, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -63,20 +51,16 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Choppiness: 0
-    - _Intensity: 8
-    - _Intensity2: 5
+    - _FresnelPower: 6
+    - _GlitterOffset: 0.65
+    - _Gradient_Power: 10
+    - _NoiseRotationSpeed: 30
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Tiling: 4
-    - _Tiling2: 4
-    - _X: 0.1
-    - _X1: 0.1
-    - _Y: 0.1
-    - _Y1: 0.1
     m_Colors:
-    - _BaseColor: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 0.1981132, g: 0.1620378, b: 0.14297792, a: 0}
-    - _Color_Outline: {r: 0.972549, g: 0.028276967, b: 0, a: 0}
-    - _LavaColor: {r: 1, g: 0.22297573, b: 0, a: 0}
+    - _Base_Color_1: {r: 0.37651107, g: 0.24029896, b: 0.37735847, a: 0}
+    - _Base_Color_2: {r: 0.47919458, g: 0.24830896, b: 0.5660378, a: 0}
+    - _FresnelColor: {r: 0.9843137, g: 0, b: 1, a: 0}
+    - _GlitterColor: {r: 1.244278, g: 0, b: 1.515717, a: 0}
+    - _NoiseScale: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
