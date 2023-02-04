@@ -15,7 +15,7 @@ public class Attractor : MonoBehaviour
 	{
 		foreach (Attractor attractor in Attractors)
 		{
-			if (attractor != this || attractor. == "Planet")
+			if (attractor != this && attractor.tag != "Planet")
 				Attract(attractor);
 		}
 	}
