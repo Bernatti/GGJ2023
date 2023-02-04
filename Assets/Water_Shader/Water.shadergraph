@@ -2416,7 +2416,7 @@
     "m_StageCapability": 3,
     "m_BareResource": false,
     "m_Texture": {
-        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"88cbd3fdc23076849b839a98d84f1caa\",\"type\":3}}",
+        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"f719646d707cf0e48848212808567a41\",\"type\":3}}",
         "m_Guid": ""
     },
     "m_DefaultType": 0
@@ -3384,9 +3384,9 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "r": 0.26637592911720278,
-        "g": 0.5033052563667297,
-        "b": 0.7735849022865295,
+        "r": 0.0,
+        "g": 0.05098039284348488,
+        "b": 0.46666666865348818,
         "a": 0.0
     },
     "isMainColor": false,
@@ -5079,7 +5079,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Smoothness",
     "m_StageCapability": 2,
-    "m_Value": 1.0,
+    "m_Value": 0.0,
     "m_DefaultValue": 0.5,
     "m_Labels": []
 }
@@ -5369,9 +5369,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 1460.0,
-            "y": 1347.0,
-            "width": 131.0,
+            "x": 1457.0001220703125,
+            "y": 1340.0,
+            "width": 130.9998779296875,
             "height": 34.0
         }
     },
@@ -7523,7 +7523,7 @@
     "m_StageCapability": 3,
     "m_BareResource": false,
     "m_Texture": {
-        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"f719646d707cf0e48848212808567a41\",\"type\":3}}",
+        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"88cbd3fdc23076849b839a98d84f1caa\",\"type\":3}}",
         "m_Guid": ""
     },
     "m_DefaultType": 0
