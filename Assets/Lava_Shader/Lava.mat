@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8741574642833023270
+--- !u!114 &-2673274171377931514
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_Water_Shader
-  m_Shader: {fileID: -6465566751694194690, guid: 3346ae633ab013d4fbcee3549d9ec568, type: 3}
+  m_Name: Lava
+  m_Shader: {fileID: -6465566751694194690, guid: e0b713851bf0d05468408713c4622af5, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 2
@@ -33,8 +33,20 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: b824a0819adfd9748a86c50c59e7ea0a, type: 3}
+    - _SampleTexture2D_aae4b2ec376b41169d932d980ded4564_Texture_1:
+        m_Texture: {fileID: 2800000, guid: f719646d707cf0e48848212808567a41, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_afca49cfb41c4bf99d6d60f6bbc19f82_Texture_1:
+        m_Texture: {fileID: 2800000, guid: b5a3094051c2f5249b5177737504a1fc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_b7a430ff17a6410491fe1c2388d5ed4d_Texture_1:
+        m_Texture: {fileID: 2800000, guid: b5a3094051c2f5249b5177737504a1fc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_c05f0df626f044a3b2169a030fc515d3_Texture_1:
+        m_Texture: {fileID: 2800000, guid: f719646d707cf0e48848212808567a41, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -51,8 +63,20 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Choppiness: 0
+    - _Intensity: 8
+    - _Intensity2: 5
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Refract_Strength: 0
-    m_Colors: []
+    - _Tiling: 5
+    - _Tiling2: 5
+    - _X: 0.1
+    - _X1: 0.1
+    - _Y: 0.1
+    - _Y1: 0.1
+    m_Colors:
+    - _BaseColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 0.1981132, g: 0.1620378, b: 0.14297792, a: 0}
+    - _Color_Outline: {r: 1, g: 0.62448287, b: 0, a: 0}
+    - _LavaColor: {r: 1, g: 0.25206697, b: 0, a: 0}
   m_BuildTextureStacks: []
