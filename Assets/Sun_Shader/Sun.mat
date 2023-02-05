@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-4570577320135932771
+--- !u!114 &-5744394031939179635
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,20 +20,16 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ForceField
-  m_Shader: {fileID: -6465566751694194690, guid: 9b226957f8f3d634093805236207f264, type: 3}
-  m_ValidKeywords:
-  - _ALPHATEST_ON
-  - _SURFACE_TYPE_TRANSPARENT
+  m_Name: Sun
+  m_Shader: {fileID: -6465566751694194690, guid: 1ea57a4e5bd654847b15fc4187a5790b, type: 3}
+  m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap:
-    RenderType: Transparent
-  disabledShaderPasses:
-  - DepthOnly
+  stringTagMap: {}
+  disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -51,22 +47,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AlphaClip: 1
-    - _Blend: 0
-    - _CastShadows: 1
-    - _Cull: 2
-    - _DstBlend: 10
-    - _Offset: 0.6
+    - _PowerIntensity: 10
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _ReceiveShadows: 1
-    - _SrcBlend: 5
-    - _Surface: 1
-    - _WorkflowMode: 1
-    - _ZTest: 4
-    - _ZWrite: 0
-    - _ZWriteControl: 0
+    - _Speed: 1.2
+    - _VoronoiDensity: 18
     m_Colors:
-    - _Emission: {r: 0, g: 1.34251, b: 1.968627, a: 0}
-    - _FresnelColor: {r: 1, g: 1, b: 1, a: 0}
+    - _BaseColor: {r: 1, g: 0.84313726, b: 0.2627451, a: 0}
+    - _CenterRadialShear: {r: 1.5, g: 0, b: 0, a: 0}
+    - _OffsetRadialShear: {r: 2, g: 2, b: 0, a: 0}
+    - _StarColor: {r: 0.31132078, g: 0.31132078, b: 0.31132078, a: 0}
+    - _StrengthRadialShear: {r: 4, g: 4, b: 0, a: 0}
   m_BuildTextureStacks: []
